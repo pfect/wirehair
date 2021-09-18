@@ -9,7 +9,7 @@ if(NOT CMAKE_BUILD_TYPE)
     set(CMAKE_BUILD_TYPE Release)
 endif()
 
-option(MARCH_NATIVE "Use -march=native option" ON)
+# option(MARCH_NATIVE "Use -march=native option" ON)
 
 set(LIB_SOURCE_FILES
         wirehair.cpp
